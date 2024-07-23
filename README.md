@@ -164,7 +164,7 @@ curl a06aa56b81f5741268daca84dca6b4f8-694631959.us-east-1.elb.amazonaws.com:80
 1. Delete the pod:
 ```sh
 kubectl delete -f 2048-pod.yaml
-```
+``` 
 2. Delete the service:
 ```sh
 kubectl delete -f mygame-svc.yaml
